@@ -34,11 +34,9 @@ Quando o rodar o código, um menu de opções será apresentado.
 
 ## ⚙ Como o código funciona
 
-O código é feito a partir dos conceitos de tabela de dispersão (tabela hash). O objetivo do código é ver na prática a funcionalidade da tabela Hash. 
-A tabela de dispersão funciona a partir de uma chave simples, e através dela fazer uma busca rápida e obter o valor desejado. 
-Nesse código, a chave escolhida é a matrícula dos alunos.
+O código é feito a partir dos conceitos de estrutura genérica. No código, fiz uma lista genérica que armazena Alunos e Professores, cada um com suas características específicas.
+A estrutura engloba informações iguais das structs Aluno e Professor em uma única estrutura Pessoa. Além disso, o código é estruturado em uma lista encadeada.
 
 Conceitos utilizados:
-- Criação de um arquivo (escrita e leitura).
-- Função Hash.
-- Tabela de dispersão.
+- Estrutura genérica.
+- Lista encadeada.
